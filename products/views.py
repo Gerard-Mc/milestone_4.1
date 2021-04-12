@@ -8,13 +8,16 @@ def portfolio(request):
 
     products = Product.objects.all()
     categories = None
-    sort = None
-    direction = None
 
     if request.GET:
         if 'sort' in request.GET:
-            sort = request.GET['sort']
-            products = products.order_by(sort)
+            sortkey = request.GET['sort']
+
+        if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+        products = products.order_by(sortkey)
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')

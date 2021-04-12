@@ -38,10 +38,10 @@
         Sort
       </button>
       <div class="dropdown-menu button-style">
-        <a class="dropdown-item color-blue" href="#">Rating ASC</a>
-        <a class="dropdown-item color-blue" href="#">Rating DESC</a>
-        <a class="dropdown-item color-blue" href="#">Price ASC</a>
-        <a class="dropdown-item color-blue" href="#">Price DESC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&direction=asc">Rating ASC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&direction=desc">Rating DESC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&direction=asc">Price ASC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&direction=desc">Price DESC</a>
       </div>
     </div>
   </div>
@@ -60,6 +60,8 @@
               src="/media/{{ product.image }}"
               alt="{{ product.name }}"
             />
+            <h4>{{ product.rating }}</h4>
+            <h4>{{ product.price}}</h4>
           </div>
           {% else %}
           <div data-toggle="modal">
@@ -75,7 +77,7 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h4 class="modal-title">
-                    <strong>{{ product.category|title }}</strong>
+                    <strong>{{ product.rating }}</strong>
                   </h4>
                   <button
                     type="button"
@@ -93,7 +95,7 @@
                     alt="{{ product.name }}"
                   />
                   <h5 class="modal-title">
-                    <strong>{{ product.name }}</strong>
+                    <strong>{{ product.price }}</strong>
                   </h5>
                   <p>{{ product.description }}</p>
                   <div class="modal-footer p-0">

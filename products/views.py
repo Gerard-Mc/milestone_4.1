@@ -11,13 +11,12 @@ def portfolio(request):
 
     if request.GET:
         if 'sort' in request.GET:
-            sortkey = request.GET['sort']
-
-        if 'direction' in request.GET:
+            sort = request.GET['sort']
+            if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
-                    sortkey = f'-{sortkey}'
-        products = products.order_by(sortkey)
+                    sort = f'-{sort}'
+            products = products.order_by(sort)
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')

@@ -31,11 +31,12 @@
         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Sort
       </button>
+
       <div class="dropdown-menu button-style">
-        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&direction=asc">Rating ASC</a>
-        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&direction=desc">Rating DESC</a>
-        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&direction=asc">Price ASC</a>
-        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&direction=desc">Price DESC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&category={{ category }}&direction=asc">Rating ASC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=rating&category={{ category }}&direction=desc">Rating DESC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&category={{ category }}&direction=asc">Price ASC</a>
+        <a class="dropdown-item color-blue" href="{% url 'portfolio' %}?sort=price&category={{ category }}&direction=desc">Price DESC</a>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
           {% if product.image %}
           <div data-toggle="modal" data-target="#{{ product.name}}">
             <img class="img-fluid" src="/media/{{ product.image }}" alt="{{ product.name }}" />
-            <h4>{{ product.rating }}</h4>
-            <h4>{{ product.price}}</h4>
+            <h4>Rating: {{ product.rating }}</h4>
+            <h4>Price: {{ product.price}}</h4>
           </div>
           {% else %}
           <div data-toggle="modal">

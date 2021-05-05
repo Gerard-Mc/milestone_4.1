@@ -5,7 +5,7 @@
       "fields":{
          "name":"Vexum",
          "description":"When motorists sped in and out of traffic, all she could think of was those in need of a transplant.",
-         "price":50,
+         "price":10,
          "category":1,
          "rating":5,
          "user_description":"Big colourful image please.",
@@ -20,7 +20,7 @@
       "fields":{
          "name":"Newton",
          "description":"The crowd yells and screams for more memes.",
-         "price":50,
+         "price":70,
          "category":1,
          "rating":4,
          "user_description":"Big colourful image please.",
@@ -35,7 +35,7 @@
       "fields":{
          "name":"Star",
          "description":"Mary plays the piano.",
-         "price":50,
+         "price":150,
          "category":1,
          "rating":4,
          "user_description":"Big colourful image please.",
@@ -50,7 +50,7 @@
       "fields":{
          "name":"Cow",
          "description":"It was obvious she was hot, sweaty, and tired.",
-         "price":50,
+         "price":70,
          "category":1,
          "rating":3,
          "user_description":"Big colourful image please.",
@@ -65,7 +65,7 @@
       "fields":{
          "name":"Pelletier",
          "description":"You're good at English when you know the difference between a man eating chicken and a man-eating chicken.",
-         "price":50,
+         "price":250,
          "category":1,
          "rating":1,
          "user_description":"Big colourful image please.",
@@ -140,7 +140,7 @@
       "fields":{
          "name":"Football",
          "description":"She was the type of girl who wanted to live in a pink house.",
-         "price":50,
+         "price":5,
          "category":1,
          "rating":3,
          "user_description":"Big colourful image please.",
@@ -155,7 +155,7 @@
       "fields":{
          "name":"Virginia",
          "description":"The box this comes in is 4 meter by 5 foot and weights 18 kilogram.",
-         "price":150,
+         "price":50,
          "category":4,
          "rating":2,
          "user_description":"Big colourful image please.",
@@ -215,7 +215,7 @@
       "fields":{
          "name":"Camp",
          "description":"They throw cabbage that turns your brain into emotional baggage.",
-         "price":150,
+         "price":250,
          "category":4,
          "rating":1,
          "user_description":"Big colourful image please.",
@@ -290,7 +290,7 @@
       "fields":{
          "name":"Students",
          "description":"The beauty of the sunset was obscured by the industrial cranes.",
-         "price":150,
+         "price":350,
          "category":4,
          "rating":5,
          "user_description":"Big colourful image please.",
@@ -305,7 +305,7 @@
       "fields":{
          "name":"Wings",
          "description":"Just go ahead and press that button.",
-         "price":50,
+         "price":20,
          "category":3,
          "rating":3,
          "user_description":"Big colourful image please.",
@@ -365,7 +365,7 @@
       "fields":{
          "name":"Hazmat",
          "description":"There are few things better in life than a slice of pie.",
-         "price":50,
+         "price":60,
          "category":3,
          "rating":4,
          "user_description":"Big colourful image please.",
@@ -440,7 +440,7 @@
       "fields":{
          "name":"Eye",
          "description":"With a single flip of the coin, his life changed forever.",
-         "price":50,
+         "price":450,
          "category":3,
          "rating":3,
          "user_description":"Big colourful image please.",
@@ -455,7 +455,7 @@
       "fields":{
          "name":"Red",
          "description":"Cats are good pets, for they are clean and are not noisy.",
-         "price":180,
+         "price":80,
          "category":2,
          "rating":2,
          "user_description":"Big colourful image please.",
@@ -515,7 +515,7 @@
       "fields":{
          "name":"Baloons",
          "description":"Seek success, but always be prepared for random cats.",
-         "price":180,
+         "price":280,
          "category":2,
          "rating":2,
          "user_description":"Big colourful image please.",
@@ -590,7 +590,7 @@
       "fields":{
          "name":"Headline",
          "description":"I saw one of these in New Zealand and I bought one.",
-         "price":180,
+         "price":380,
          "category":2,
          "rating":3,
          "user_description":"Big colourful image please.",
